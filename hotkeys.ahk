@@ -1,4 +1,4 @@
-﻿
+
 ; *********************** Header - some configuration  ***********************
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors. (disabled by default)
@@ -21,6 +21,9 @@ setTitleMatchMode, 2 ; set title match mode to "contains"
 
 ;CTRL + Alt +  b = chrome (internet)
 #b::ActivateOrOpen("- Brave", "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe")
+
+;Win + N = Notion
+#n::ActivateOrOpen("- Notion", "C:\Users\Gaurav\AppData\Local\Programs\Notion\Notion.exe")
 
 url=www.google.com ; <-- place url here.
 ^!z::
