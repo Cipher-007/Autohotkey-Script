@@ -20,7 +20,7 @@ setTitleMatchMode, 2 ; set title match mode to "contains"
 !q::ActivateOrOpen("- Qbittorrent", "C:\Program Files\qBittorrent\qbittorrent.exe")
 
 ;CTRL + Alt +  b = chrome (internet)
-#b::ActivateOrOpen("- Brave", "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe")
+#b::ActivateOrOpen("- Brave", "C:\Users\Gaurav\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe")
 
 ;Win + N = Notion
 #n::ActivateOrOpen("- Notion", "C:\Users\Gaurav\AppData\Local\Programs\Notion\Notion.exe")
@@ -30,8 +30,8 @@ url=www.google.com ; <-- place url here.
 run % "chrome.exe" ( winExist("ahk_class Chrome_WidgetWin_1") ? " -new " : " " ) url
 return
 
-;CTRL + Alt + w = Word
-^!w::ActivateOrOpen("- Word", "WINWORD")
+;CTRL + Alt + w = WhatsApp
+^!w::ActivateOrOpen("- WhatsApp", "C:\Users\Gaurav\AppData\Local\WhatsApp\WhatsApp.exe")
 
 
 ;CTRL + Alt + e = Excel
